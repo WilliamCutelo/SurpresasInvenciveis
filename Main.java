@@ -32,7 +32,7 @@ public class Main {
                     if (produtoRemover != null) {
                         estoque.removerEstoque(produtoRemover);
                         System.out.println("Produto removido com sucesso!");
-                    } else if(produtoRemover == null) {
+                    } else {
                         System.out.println("Produto não encontrado.");
                     }
 
